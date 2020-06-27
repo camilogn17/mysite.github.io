@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Los Simpson</title>
+    <style type="text/css">
+      ul {
+        list-style-image: url('images/homer.png');
+      }
+      li {
+        margin: 10px 0px 0px 0px;
+      }
+      td.up {
+        border: 1px solid #001522;
+        padding: 15px;
+      }
+      table.one {
+        empty-cells: show;
+        }
+      td.down {
+        background-color: red;
+        padding: 30px;
+        border: 5px solid #000000;
+      }
+      table.three {
+        border-spacing: 5px 15px;}
+        input {
+        font-size: 120%;
+        color: #5a5854;
+        background-color: #f2f2f2;
+        border: 1px solid #bdbdbd;
+        border-radius: 5px;
+        padding: 5px 5px 5px 30px;
+        background-repeat: no-repeat;
+        background-position: 8px 9px;
+        display: block;
+        margin-bottom: 10px;
+      }
+      input:focus,
+      input:hover {
+        background-color: #ffffff;
+        border: 1px solid #b1e1e4;
+      }
+      input#email1 {
+        background-image: url('images/email.png');
+      }
+      input#name1 {
+        background-image: url('images/name.png');
+      }
+      input#phone1 {
+        background-image: url('images/phone.png');
+      }
+      a#auto {
+        cursor: auto;
+      }
+      a#crosshair {
+        cursor: crosshair;
+      }
+      a#move {
+        cursor: move;
+      }
+      a#default {
+        cursor: default;
+      }
+      a#pointer {
+        cursor: pointer;
+      }
+      a#text {
+        cursor: text;
+      }
+      a#wait {
+        cursor: wait;
+      }
+      a#help {
+        cursor: help;}
+      * {
+        font-family: Perpetua, Verdana, sans-serif;
+        color: #665544;
+      }
+      input {
+        border-bottom: 1px dotted #dcdcdc;
+        border-top: none;
+        border-right: none;
+        border-right: none;
+        padding: 5px;
+        width: 280px;
+        margin-bottom: 20px;
+      }
+      input:focus {
+        border: 1px dotted #dcdcdc;
+        outline: none;
+      }
+      input#submit {
+        color: #ffffff;
+        background-color: #665544;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+      }
+      input#submit:hover {
+        color: 665544;
+        background-color: #efefef;
+      }
+      fieldset {
+        width: 350px;
+        border: 1px solid#dcdcdc;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: left;
+      }
+      legend {
+        background-color: #efefef;
+        border: 1px solid #dcdcdc;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-align: left;
+        text-transform: uppercase}
+    </style>
+  </head>
+  <body>
+    <h1>Los Simpson Serie de animación</h1>
+    <p>
+      The Simpsons (en español, Los Simpson) es una serie estadounidense de
+      animación, en formato de comedia de situación, creada por Matt Groening
+      para Fox Broadcasting Company y emitida en varios países del mundo. La
+      serie es una sátira hacia la sociedad estadounidense que narra la vida y
+      el día a día de una familia de clase media de ese país (cuyos miembros son
+      Homer, Marge, Bart, Lisa y Maggie Simpson) que vive en un pueblo ficticio
+      llamado Springfield.
+    </p>
+    <h2>Personajes mas releventes</h2>
+    <ul>
+      <li>El señor Burns</li>
+      <li>Moe Szyslak</li>
+      <li>Ned Flanders</li>
+      <li>Milhouse Van Houten</li>
+      <li>Abuelo Simpson</li>
+      <li>El director Skinner</li>
+      <li>Bob</li>
+      <li>Krusty</li>
+      <li>Marge</li>
+      <li>Homer</li>
+      <li>Bart</li>
+      <li>Lisa</li>
+      <li>Maggie</li>
+    </ul>
+    <p>
+        <i><b>En estos cuadros podremos visualizar el orden de la familia Simpson
+      </p></b></i>
+    <table class="one">
+      <tr>
+        <td class="up">Homer</td>
+        <td class="up">Marge</td>
+      </tr>
+      <tr>
+        <td class="up">Bart</td>
+        <td class="up">Lisa</td>
+      </tr>
+        <tr>
+          <td class="up">Maggie</td>
+        </tr>
+    </table>
+    <p>
+      <i><b>En estos cuadros podremos visualizar el orden de la familia Simpson
+    </p></b></i>
+    <table class="three">
+        <tr>
+          <td class="down">Burns</td>
+          <td class="down">Moe</td>
+        </tr>
+        <tr>
+          <td class="down">Flanders</td>
+          <td class="down">Milhouse</td>
+        </tr>
+      </table>
+      <p><i><b>En los siguientes cuadros vemos algunos de los personajes mas iconicos de los Simpson
+    </p></b></i>
+    <form>
+        <input type="text" id="email1" />
+        <input type="text" id="name1" />
+        <input type="text" id="phone1" />
+      </form>
+      <center><h3>Por Favor ingresa tu usuario e email para porte suscribir a la noticias e historia de los Simpsons</h3>
+      <form>
+        <fieldset>
+          <legend>Boletín</legend>
+          <label for="name">Nombre: </label> <input type="text" id="name" />
+          <label for="email">Email: </label> <input type="text" id="email" />
+          <input type="submit" value="Suscribete" id="submit" />
+        </fieldset>
+      </form></center>
+      <center><h3>Acontinuacion encontraras varios links sobre la historia de los simpsons</h3>
+      <h3>Puedes dar clic y visitar las paginas</h3></center>
+      <p>
+        <a id="auto" href="https://www.lavanguardia.com/vida/junior-report/20191220/472356297120/personajes-secundarios-los-simpson.html"
+          >La vanguardia Los Simpsons</a
+        >
+      </p>
+      <p>
+        <a
+          id="crosshair"
+          href="https://simpsons.fandom.com/es/wiki/The_Simpsons#:~:text=Groening%20ide%C3%B3%20a%20la%20familia,19%20de%20abril%20de%201987.&text=En%201989%20un%20equipo%20de,hora%20para%20Fox%20Broadcasting%20Company."
+          >Los Simpson Fans</a
+        >
+      </p>
+      <p>
+        <a id="move" href="https://es.wikipedia.org/wiki/Los_Simpson"
+          >Historia los Simpson</a
+        >
+      </p>
+      <p>
+        <a
+          id="default"
+          href="https://www.rtve.es/noticias/20151123/historia-simpson-primera-vez-orden-cronologico/1257640.shtml"
+          >Verdadera Historia de los Simpson</a>
+        </p>
+        <p>
+          <a
+            id="pointer"
+            href="http://simpsons.yaia.com/historia.html"
+            >Historia los Simpson</a>
+        </p>
+  </body>
+</html>
